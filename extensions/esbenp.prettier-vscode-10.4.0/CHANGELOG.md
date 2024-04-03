@@ -6,6 +6,20 @@ All notable changes to the "prettier-vscode" extension will be documented in thi
 
 ## [Unreleased]
 
+## [10.4.0]
+
+- Fixed config resolution that caused plugins to be ignored when using Prettier 3.1.1 or later. (#3252)
+
+## [10.3.0]
+
+- Module path can be a dir when loading prettier version
+- Add language-override support for VSCode configuration.
+
+## [10.2.0]
+
+- Fixed the issue where VSCode was misrecognizing the path in output panel due to added quotes.
+- Fix module resolution with `prettierPath` setting
+
 ## [10.1.0]
 
 Reverts back to prettier 2.x by default due to issues with extension
